@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.0",
+    "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "axios": "^1.6.2"
+  }
+}
